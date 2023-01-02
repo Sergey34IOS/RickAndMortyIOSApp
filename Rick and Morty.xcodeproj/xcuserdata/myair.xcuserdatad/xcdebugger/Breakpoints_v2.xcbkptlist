@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "479D52B5-1762-4EE2-8A1C-2CD3DF86468D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2327B976-73D7-45EE-8965-54DF840911AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rick and Morty/Controllers/Core/RMTabViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "RMTabBarController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6E3B010-FA1B-40CA-A6A3-B7EB75FB425D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rick and Morty/Controllers/Core/RMTabViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "C6E3B010-FA1B-40CA-A6A3-B7EB75FB425D - fab560973569e9ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rick_and_Morty.RMTabBarController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Rick_and_Morty.RMTabBarController"
+                  moduleName = "Rick and Morty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/myair/Desktop/Rick%20and%20Morty/Rick%20and%20Morty/Controllers/Core/RMTabViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "C6E3B010-FA1B-40CA-A6A3-B7EB75FB425D - d0752a8fce1cb5cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rick_and_Morty.RMTabBarController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Rick_and_Morty.RMTabBarController"
+                  moduleName = "Rick and Morty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/myair/Desktop/Rick%20and%20Morty/Rick%20and%20Morty/Controllers/Core/RMTabViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "C6E3B010-FA1B-40CA-A6A3-B7EB75FB425D - 8b302baf958ad068"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rick_and_Morty.RMTabBarController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Rick_and_Morty.RMTabBarController&gt;"
+                  moduleName = "Rick and Morty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/myair/Desktop/Rick%20and%20Morty/Rick%20and%20Morty/Controllers/Core/RMTabViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "C6E3B010-FA1B-40CA-A6A3-B7EB75FB425D - 5ec5569cdaff580b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rick_and_Morty.RMTabBarController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Rick_and_Morty.RMTabBarController&gt;"
+                  moduleName = "Rick and Morty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/myair/Desktop/Rick%20and%20Morty/Rick%20and%20Morty/Controllers/Core/RMTabViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "C6E3B010-FA1B-40CA-A6A3-B7EB75FB425D - eaef80e4c5924ea7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rick_and_Morty.RMTabBarController.__deallocating_deinit"
+                  moduleName = "Rick and Morty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/myair/Desktop/Rick%20and%20Morty/Rick%20and%20Morty/Controllers/Core/RMTabViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5FD8795-E297-46B9-A655-5A5FFF53FC6F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rick and Morty/Controllers/Core/RMTabViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "RMTabBarController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "D5FD8795-E297-46B9-A655-5A5FFF53FC6F - fab560973569e9ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rick_and_Morty.RMTabBarController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Rick_and_Morty.RMTabBarController"
+                  moduleName = "Rick and Morty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/myair/Desktop/Rick%20and%20Morty/Rick%20and%20Morty/Controllers/Core/RMTabViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "D5FD8795-E297-46B9-A655-5A5FFF53FC6F - d0752a8fce1cb5cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rick_and_Morty.RMTabBarController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Rick_and_Morty.RMTabBarController"
+                  moduleName = "Rick and Morty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/myair/Desktop/Rick%20and%20Morty/Rick%20and%20Morty/Controllers/Core/RMTabViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "D5FD8795-E297-46B9-A655-5A5FFF53FC6F - 8b302baf958ad068"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rick_and_Morty.RMTabBarController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Rick_and_Morty.RMTabBarController&gt;"
+                  moduleName = "Rick and Morty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/myair/Desktop/Rick%20and%20Morty/Rick%20and%20Morty/Controllers/Core/RMTabViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "D5FD8795-E297-46B9-A655-5A5FFF53FC6F - 5ec5569cdaff580b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rick_and_Morty.RMTabBarController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Rick_and_Morty.RMTabBarController&gt;"
+                  moduleName = "Rick and Morty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/myair/Desktop/Rick%20and%20Morty/Rick%20and%20Morty/Controllers/Core/RMTabViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "D5FD8795-E297-46B9-A655-5A5FFF53FC6F - eaef80e4c5924ea7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rick_and_Morty.RMTabBarController.__deallocating_deinit"
+                  moduleName = "Rick and Morty"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/myair/Desktop/Rick%20and%20Morty/Rick%20and%20Morty/Controllers/Core/RMTabViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
