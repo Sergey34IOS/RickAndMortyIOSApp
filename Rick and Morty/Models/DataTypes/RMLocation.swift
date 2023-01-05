@@ -1,4 +1,5 @@
 //
+//
 //  RMLocation.swift
 //  Rick and Morty
 //
