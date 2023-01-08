@@ -1,0 +1,8 @@
+//
+//  RMCharacterDetailView.swift
+//  Rick and Morty
+//
+//  Created by My Air on 06.01.2023.
+//
+
+import Foundation

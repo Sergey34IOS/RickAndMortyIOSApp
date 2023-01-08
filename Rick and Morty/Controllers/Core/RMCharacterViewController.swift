@@ -8,7 +8,7 @@
 import UIKit
 
 /// Controller to show and search for Characters
-final class RMCharacterViewController: UIViewController {
+final class RMCharacterViewController: UIViewController, RMCharacterListViewDelegate {
     
     private let characterListVIew = RMCharacterListView()
     
@@ -17,11 +17,10 @@ final class RMCharacterViewController: UIViewController {
         view.backgroundColor = .systemBackground
         title = "Characters"
         setUpViews()
-        extraRequest()
     }
     
-    private func setUpViews()
-    {
+    private func setUpViews() {
+        characterListVIew.delegate = self
         view.addSubview(characterListVIew)
         NSLayoutConstraint.activate([
             characterListVIew.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
@@ -32,15 +31,13 @@ final class RMCharacterViewController: UIViewController {
         ])
     }
         
-        
-    func extraRequest() {RMService.shared.execute(.listCharacterRequests, expecting: RMGetAllCharactersResponse.self) { result in
-        switch result {
-        case .success(let model):
-            print("Total: "+String(model.info.count))
-            print("Page result count: "+String(model.results.count))
-        case .failure(let error):
-            print(String(describing: error))
-        }
-            }
-        }
+        // MARK: - RMCharacterListViewDelegate
+    
+    func rmCharacterListView(_characterListView: RMCharacterListView, didSelectCharacter character: RMCharacter) {
+        // Open detail controller for that character
+        let viewModel = RMCharacterDetailViewViewModel(character: character)
+        let detailVC = RMCharacterDetailViewController(viewModel: viewModel)
+        detailVC.navigationItem.largeTitleDisplayMode = .never
+        navigationController?.pushViewController(detailVC, animated: true)
+    }
 }
