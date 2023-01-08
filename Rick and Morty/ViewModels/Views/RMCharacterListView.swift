@@ -11,6 +11,7 @@ protocol RMCharacterListViewDelegate: AnyObject {
     func rmCharacterListView(
         _characterListView: RMCharacterListView,
         didSelectCharacter character: RMCharacter)
+    
 }
 
 // View that handles showing list of characters, loader, etc.
@@ -38,8 +39,8 @@ final class RMCharacterListView: UIView {
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.register(RMCharacterCollectionViewCell.self, forCellWithReuseIdentifier: RMCharacterCollectionViewCell.cellIdentity)
         collectionView.register(RMFooterLoadingCollectionReusableView.self,
-            forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter,
-            withReuseIdentifier: RMFooterLoadingCollectionReusableView.identifier)
+                                forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter,
+                                withReuseIdentifier: RMFooterLoadingCollectionReusableView.identifier)
         return collectionView
     }()
     // MARK: - Init
@@ -91,13 +92,13 @@ extension RMCharacterListView: RMCharacterListViewViewModelDelegate {
         collectionView.isHidden = false
         collectionView.reloadData() // Initial fetch of characters
         UIView.animate(withDuration: 0.4) {
-                self.collectionView.alpha = 1
-            }
+            self.collectionView.alpha = 1
         }
+    }
     
     func didLoadMoreCharacters(with newIndexPath: [IndexPath]) {
         collectionView.performBatchUpdates {
             self.collectionView.insertItems(at: newIndexPath)
         }
     }
-    }
+}

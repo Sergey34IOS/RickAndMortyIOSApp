@@ -11,6 +11,7 @@ protocol RMCharacterListViewViewModelDelegate: AnyObject {
     
     func didLoadInitialCharacters()
     func didLoadMoreCharacters(with newIndexPath: [IndexPath])
+    
     func didSelectCharacter(_ character: RMCharacter)
 }
 /// View Model to handle character list view logic

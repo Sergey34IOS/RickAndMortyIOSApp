@@ -47,9 +47,8 @@ final class RMService {
         // Decode Response
             do {
                 let result = try JSONDecoder().decode(type.self, from: data)
-//                print("My model \(json.results.count)")
                 completion(.success(result))
-                //
+            
             }
             catch {
                 completion(.failure(error))
