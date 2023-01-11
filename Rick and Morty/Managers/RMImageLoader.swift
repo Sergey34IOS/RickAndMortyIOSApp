@@ -15,6 +15,7 @@ final class RMImageLoader {
     private init() {}
     
     public func downloadImage(_ url: URL, completion: @escaping (Result<Data, Error>) -> Void) {
+        
         let key = url.absoluteString as NSString
         if let data = imageDataCache.object(forKey: key) {
             print("Reading from cache")
@@ -30,7 +31,7 @@ final class RMImageLoader {
             }
             let key = url.absoluteString as NSString
             let value = data as NSData
-            self.imageDataCache.setObject(value, forKey: key)
+            self?.imageDataCache.setObject(value, forKey: key)
             completion(.success(data))
         }
         task.resume()

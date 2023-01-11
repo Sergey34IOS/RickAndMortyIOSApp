@@ -43,15 +43,16 @@ final class RMCharacterListView: UIView {
                                 withReuseIdentifier: RMFooterLoadingCollectionReusableView.identifier)
         return collectionView
     }()
+    
     // MARK: - Init
     
-    override init(frame: CGRect) {
+  override  init(frame: CGRect) {
         super.init(frame: frame)
         translatesAutoresizingMaskIntoConstraints = false
         addSubviews(collectionView, spinner)
         addConstraints()
         setUpCollectionView()
-        spinner.startAnimating()
+        spinner.stopAnimating()
         viewModel.delegate = self
         viewModel.fetchCharacters()
         print(collectionView)
